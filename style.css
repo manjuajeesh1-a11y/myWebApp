@@ -1,0 +1,31 @@
+/*.container-lg
+{
+    background-color:blueviolet;
+    height: 30px;
+}
+.container-fluid
+{
+    background-color:brown;
+    height: 30px;
+}*/
+
+img.slide
+{
+    height: 300px;
+}
+.card
+{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+
+}
+
+.card:hover
+{
+    transform: scale(1.15);
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 8px 25px rgba (0,0,0,0.4);
+
+}
